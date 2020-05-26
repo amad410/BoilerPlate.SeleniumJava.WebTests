@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Smoke Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Listeners.Listeners"/>
+  </listeners>
+  <test thread-count="2" name="MyCoach.POC.WebTests(failed)" verbose="0">
+    <classes>
+      <class name="WebTests.SampleTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="TestSetup"/>
+          <include name="Setup"/>
+          <include name="SampleTestCase"/>
+          <include name="TestTearDown"/>
+          <include name="ReportResults"/>
+        </methods>
+      </class> <!-- WebTests.SampleTest -->
+    </classes>
+  </test> <!-- MyCoach.POC.WebTests(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

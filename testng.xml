@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="Listeners.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="MyCoach.POC.WebTests">
+        <classes>
+            <class name="WebTests.SampleTest"/>
+
+        </classes>
+
+    </test>
+</suite>

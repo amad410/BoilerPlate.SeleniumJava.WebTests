@@ -1,0 +1,8 @@
+Handlers\ReportHandler.class
+Listeners\Listeners.class
+Utils\BrowserFactory.class
+WebTests\SampleTest.class
+PageObjects\BasePage.class
+Handlers\ScreenCaptureHandler.class
+Utils\WaitUtils.class
+WebTests\BaseTest.class
